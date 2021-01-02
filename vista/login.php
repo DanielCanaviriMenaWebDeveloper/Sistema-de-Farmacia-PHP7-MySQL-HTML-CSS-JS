@@ -22,7 +22,7 @@
                 <img src="../img/bg.svg" alt="">
             </div><!-- img -->
             <div class="contenido-login">
-                <form action="">
+                <form action="../controlador/LoginController.php" method="POST">
                     <img src="../img/logo.png" alt="">
                     <h2>Farmacia</h2>
                     <div class="input-div dni">
