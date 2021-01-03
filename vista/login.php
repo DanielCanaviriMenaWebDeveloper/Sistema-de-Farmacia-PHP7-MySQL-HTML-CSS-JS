@@ -15,6 +15,17 @@
         <link rel="stylesheet" href="../css/style.css">
         <title>Login</title>
     </head>
+
+    <?php
+        session_start(); /* Al abrir sesión puedo acceder a las variables globales de sesión */
+        /* echo $_SESSION['nombre_us']; */
+        if(!empty($_SESSION['us_tipo'])) { /* Si no esta vacia significa que existe una sesión abierta */
+            header('Location: ../controlador/LoginController.php');
+        } else {    /* Mostrara nuestro login para iniciar sesión. */
+            session_destroy(); /* Borramos todas las sesiones para evitar errores. */
+    ?>
+    <!-- Todo el código del login esta dentro el proceso por falso del condicional if -->
+    
     <body>
         <img class="wave" src="../img/wave.png">
         <div class="contenedor">
@@ -51,5 +62,10 @@
 
         <script src="../js/login.js"></script>
     </body>
+    
 </html>
+
+<?php
+        }/* else */
+?>
 
