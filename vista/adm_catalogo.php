@@ -64,6 +64,6 @@
 <?php
         include_once 'layouts/footer.php';
     } else {
-        header('Location: ../vista/login.php');
+        header('Location: ../index.php');
     }
 ?>
