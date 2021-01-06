@@ -1,0 +1,4 @@
+.centrar-verticalmente {
+    display: flex;
+    align-items: center;
+}

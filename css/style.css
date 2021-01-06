@@ -9,6 +9,11 @@ body {
     overflow-x: hidden;
 }
 
+.centrar-verticalmente {
+    display: flex;
+    align-items: center;
+}
+
 .wave {
     position: fixed;
     bottom: 0;

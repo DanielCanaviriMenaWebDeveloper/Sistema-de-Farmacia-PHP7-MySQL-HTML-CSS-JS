@@ -90,6 +90,55 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="col-md-9">
+                                    <div class="card card-success">
+                                        <div class="card-header">
+                                            <h3 class="card-title">Editar Datos Personales</h3>
+                                        </div>
+                                        <div class="card-body">
+                                            <form action="" class="form-horizontal">
+                                                <div class="form-group row">
+                                                    <label for="telefono" class="col-sm-2 col-form-label">Teléfono</label>
+                                                    <div class="col-sm-10">
+                                                        <input type="number" id="telefono" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <label for="residencia" class="col-sm-2 col-form-label">Residencia</label>
+                                                    <div class="col-sm-10">
+                                                        <input type="text" id="residencia" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <label for="correo" class="col-sm-2 col-form-label">Correo</label>
+                                                    <div class="col-sm-10">
+                                                        <input type="text" id="correo" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <label for="sexo" class="col-sm-2 col-form-label">Sexo</label>
+                                                    <div class="col-sm-10">
+                                                        <input type="text" id="sexo" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <label for="adicional" class="col-sm-2 col-form-label">Información adicional</label>
+                                                    <div class="col-sm-10 centrar-verticalmente">
+                                                        <textarea class="form-control" id="adicional" cols="10" rows="8"></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <div class="offset-sm-2 col-sm-10 float-right">
+                                                        <button class="btn btn-block btn-outline-success">Guardar</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="card-footer">
+                                            <p class="text-muted">Evitar ingresar datos erroneos</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
